@@ -21,7 +21,7 @@ using namespace boost::fusion;
 
 struct pythagoras
 {
-	typedef double result_type;
+	// typedef double result_type; - I blindly typed this from the presentation...
 
 	template<typename T>
 	double operator()(double acc, T const& axis) const
